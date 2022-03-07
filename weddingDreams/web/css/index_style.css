@@ -37,11 +37,10 @@
 
 /* nav compo style */
 .principal_nav {
-  background-color: #c7c7c779;
+  background-color: #ffffffc9;
   width: 100%;
   text-align: center;
   box-shadow: 2px 2px 7px #929292;
-  position: absolute;
 }
 
 .principal_nav li {
@@ -58,3 +57,4 @@
 .principal_nav a:hover {
   color: #000000;
 }
+
