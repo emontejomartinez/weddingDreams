@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +9,42 @@
     <title>Wedding Dreams</title>
 </head>
 <body>
-   <footer class="footer">
+    <nav>
+     <ul class="social_nav">
+         <li><a href="#"><img src="img/social_nav_icon/facebook.png"></a></li>
+         <li><a href="#"><img src="img/social_nav_icon/instagram.png"></a></li>
+         <li><a href="#"><img src="img/social_nav_icon/whatsapp.png"></a></li>
+         <li><a href="#"><ims src="img/social_nav_icon/youtube.png"></a></li>
+     </ul>
+     </nav>
+   <nav>
+       <ul class="principal_nav">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Gallery</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+   </nav> 
+   <div class="carousel">
+    <div class="carousel__item carousel__item--visible">
+      <img src="img/carousel/principalCarousel(1).jpg" />
+    </div>
+    <div class="carousel__item">
+      <img src="img/carousel/principalCarousel(2).jpg" />
+    </div>
+    <div class="carousel__item">
+      <img src="img/carousel/principalCarousel(3).jpg" />
+    </div>
+
+    <div class="carousel__actions">
+      <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+      <button id="carousel__button--next" aria-label="Next slide">></button>
+    </div>
+  </div>
+
+  <script src="shared/js/carousel.js"></script>
+   
+  <footer class="footer">
         <section class="footer-container">
             <div class="useful_links">
                 <h2>Useful Links</h2>
