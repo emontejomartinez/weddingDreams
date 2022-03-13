@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index_style.css">
+    <link rel="stylesheet" href="css/carousel_style.css">
+    <link rel="stylesheet" href="css/review_style.css">
+    <link rel="stylesheet" href="css/footer_style.css">
     <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
     <title>Wedding Dreams</title>
 </head>
@@ -16,35 +19,72 @@
          <li><a href="#"><img src="img/social_nav_icon/whatsapp.png"></a></li>
          <li><a href="#"><ims src="img/social_nav_icon/youtube.png"></a></li>
      </ul>
-     </nav>
-   <nav>
+    </nav>
+
+    <nav>
        <ul class="principal_nav">
            <li><a href="#">Home</a></li>
            <li><a href="#">About Us</a></li>
            <li><a href="#">Gallery</a></li>
            <li><a href="#">Contact</a></li>
        </ul>
-   </nav> 
-   <div class="carousel">
-    <div class="carousel__item carousel__item--visible">
-      <img src="img/carousel/principalCarousel(1).jpg"/>
-    </div>
-    <div class="carousel__item">
-      <img src="img/carousel/principalCarousel(2).jpg"/>
-    </div>
-    <div class="carousel__item">
-      <img src="img/carousel/principalCarousel(3).jpg"/>
+    </nav> 
+
+    <div class="carousel">
+        <div class="carousel__item carousel__item--visible">
+            <img src="img/carousel/principalCarousel(1).jpg" />
+        </div>
+        <div class="carousel__item">
+            <img src="img/carousel/principalCarousel(2).jpg" />
+        </div>
+        <div class="carousel__item">
+            <img src="img/carousel/principalCarousel(3).jpg" />
+        </div>
+        <div class="carousel__actions">
+            <button id="carousel__button--prev" aria-label="Previous slide"><</button>
+            <button id="carousel__button--next" aria-label="Next slide">></button>
+        </div>
     </div>
 
-    <div class="carousel__actions">
-      <button id="carousel__button--prev" aria-label="Previous slide"><</button>
-      <button id="carousel__button--next" aria-label="Next slide">></button>
-    </div>
-  </div>
-
-  <script src="shared/js/carousel.js"></script>
+    <section class="customers" id="customers">
+        <div class="sec-width">
+            <div class="title">
+                <h2>Customers</h2>
+            </div>
+            <div class="customers-container">
+                <!-- single customer -->
+                <div class="customer">
+                    <h3>Captured the exact theme</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi fugiat exercitationem maiores, ducimus minus quisquam perferendis. Illum molestias, explicabo, tenetur nostrum sapiente incidunt iste cumque praesentium veniam, eligendi dolorum magni eum ducimus. Non, temporibus.</p>
+                    <img src="img/review/cus1.jpg" alt="customer image">
+                    <span>Chang & Wen | oct 2</span>
+                </div>
+                <!--- end of single customer -->
+                <!-- single customer -->
+                <div class="customer">
+                    <h3>Best decision we ever made</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi fugiat exercitationem maiores, ducimus minus quisquam perferendis. Illum molestias, explicabo, tenetur nostrum sapiente incidunt iste cumque praesentium veniam, eligendi dolorum magni eum ducimus. Non, temporibus.</p>
+                    <img src="img/review/cus2.jpg" alt="customer image">
+                    <span>Kat & Charles | nov 3</span>
+                </div>
+                <!--- end of single customer -->
+                <!-- single customer -->
+                <div class="customer">
+                    <h3>Wedding Dreams made it possible!</h3>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum commodi fugiat exercitationem maiores, ducimus minus quisquam perferendis. Illum molestias, explicabo, tenetur nostrum sapiente incidunt iste cumque praesentium veniam, eligendi dolorum magni eum ducimus. Non, temporibus.</p>
+                    <img src="img/review/cus3.jpg" alt="customer image">
+                    <span>John & Megan | dec 5</span>
+                </div>
+                <!--- end of single customer -->
+            </div>
+        </div>
+    </section>
+    <!-- end of body content -->
    
-  <footer class="footer">
+    <footer class="footer">
         <section class="footer-container">
             <div class="useful_links">
                 <h2>Useful Links</h2>
@@ -98,7 +138,7 @@
                 <p>© 2022 Wedding Dreams | All rights reserved | <a href="#">Terms of Service & Usage</a> - <a href="#">Privacy Policy</a></p>
             </div>
         </section>
-        
-   </footer>
+    </footer>
+    <script src="shared/js/carousel.js"></script>
 </body>
 </html>
