@@ -1,6 +1,7 @@
 /* FOOTER */
 
-.flex{
+.fa{
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,18 +17,6 @@
 .footer h2{
     margin-bottom: 5px;
 }
-.footer a{
-    color: #fff;
-    text-decoration: underline;
-    text-decoration-color: transparent;
-    transition: 1s;
-}
-
-.footer a:hover{
-    text-decoration-color: white;
-    color: var(--light);
-    opacity: 1;
-}
 
 .footer-container{
     width: 85vw;
@@ -36,22 +25,21 @@
 }
   
 .footer-container p, .footer-container a, .footer-container span{
-    opacity: 0.8;
+    opacity: 0.9;
 }
-
 
 .useful_links a{
     display: block;
 }
 
-.social-icons{
+.social-icons-bot{
     list-style: none;
     display: flex;
     justify-content: start;
     padding: 15px 0;
 }
 
-.social-icons li{
+.social-icons-bot a{
     margin: 0 10px;
     width: 50px;
     height: 50px;
@@ -60,12 +48,14 @@
     border-radius: 50%;
     transition: var(--transition);
     cursor: pointer;
+    text-decoration: none;
 }
 
-.social-icons li:hover{
+.social-icons-bot a:hover{
     background: var(--medium);
     color: white;
 }
+
 .contact-item span{
     display: block;
 }
@@ -78,6 +68,20 @@
     text-align:center;
     opacity: 0.6;
     margin-bottom:0;
+}
+
+.useful_links  a, .copyright a{
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 1s;
+}
+
+
+.useful_links a:hover, .copyright a:hover{
+    text-decoration-color: white;
+    color: var(--light);
+    opacity: 1;
 }
 
 @media (min-width: 320px){
