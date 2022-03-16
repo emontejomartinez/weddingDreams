@@ -12,25 +12,43 @@
     <title>Wedding Dreams</title>
 </head>
 <body>
-    <nav>
-     <ul class="social_nav">
-         <li><a href="#"><img src="img/social_nav_icon/facebook.png"></a></li>
-         <li><a href="#"><img src="img/social_nav_icon/instagram.png"></a></li>
-         <li><a href="#"><img src="img/social_nav_icon/whatsapp.png"></a></li>
-         <li><a href="#"><ims src="img/social_nav_icon/youtube.png"></a></li>
-     </ul>
+    <nav class="social_nav">
+        <div class="social-item">
+            <span><i class="fas fa-phone-alt"></i></span>
+            <span>678264129</span>
+        </div>
+
+        <div class="social-item">
+            <span><i class="fas fa-envelope"></i></span>
+            <span>contact@weddingdreams.com</span>
+        </div>
+
+        <div class="social-item social-icons-top">
+            <a href="#" class="fa fa-facebook fa-2x"></a>
+            <a href="#" class="fa fa-twitter fa-2x"></a>
+            <a href="#" class="fa fa-instagram fa-2x"></a>
+            <a href="#" class="fa fa-youtube fa-2x"></a>
+            <a href="#" class="fa fa-whatsapp fa-2x"></a>
+        </div>
     </nav>
 
-    <nav>
-       <ul class="principal_nav">
-           <li><a href="#">Home</a></li>
-           <li><a href="#">About Us</a></li>
-           <li><a href="#">Gallery</a></li>
-           <li><a href="#">Contact</a></li>
-       </ul>
+    <nav class="principal_nav">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <!-- Links -->
+        <ul class="navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" class="active">Wedding Quiz</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">English</a></li>
+        </ul>
     </nav> 
 
-    <div class="carousel">
+    <header class="carousel">
         <div class="carousel__item carousel__item--visible">
             <img src="img/carousel/principalCarousel(1).jpg" />
         </div>
@@ -44,9 +62,20 @@
             <button id="carousel__button--prev" aria-label="Previous slide"><</button>
             <button id="carousel__button--next" aria-label="Next slide">></button>
         </div>
-    </div>
+    </header>
 
-    <section class="customers" id="customers">
+    <section class="services">
+        <div class="title">
+            <h2>Best Services</h2>
+        </div>
+
+        <div class="services-container">
+
+        </div>
+        
+    </section>
+
+    <section class="customers">
         <div class="sec-width">
             <div class="title">
                 <h2>Customers</h2>
@@ -82,7 +111,6 @@
             </div>
         </div>
     </section>
-    <!-- end of body content -->
    
     <footer class="footer">
         <section class="footer-container">
@@ -95,11 +123,13 @@
 
             <div>
                 <h2>Connect With Us</h2>
-                <ul class="social-icons">
-                    <li class="flex"><i class="fa fa-facebook fa-2x"></i></li><!-- facebook icon -->
-                    <li class="flex"><i class="fa fa-twitter fa-2x"></i></li><!-- twitter icon -->
-                    <li class="flex"><i class="fa fa-instagram fa-2x"></i></li><!-- instagram icon -->
-                </ul>
+                <div class="social-icons-bot">
+                    <a href="#" class="fa fa-facebook fa-2x"></a>
+                    <a href="#" class="fa fa-twitter fa-2x"></a>
+                    <a href="#" class="fa fa-instagram fa-2x"></a>
+                    <a href="#" class="fa fa-youtube fa-2x"></a>
+                    <a href="#" class="fa fa-whatsapp fa-2x"></a>
+                </div>
             </div>
 
             <div>
@@ -139,6 +169,7 @@
             </div>
         </section>
     </footer>
+    
     <script src="shared/js/carousel.js"></script>
 </body>
 </html>
