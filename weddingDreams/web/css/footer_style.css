@@ -1,13 +1,5 @@
 /* FOOTER */
 
-.fa{
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .footer{
     background: var(--dark);
     color: #fff;
@@ -28,37 +20,49 @@
     opacity: 0.9;
 }
 
+/* Useful links */
+
 .useful_links a{
     display: block;
 }
 
-.social-icons-bot{
-    list-style: none;
-    display: flex;
-    justify-content: start;
-    padding: 15px 0;
+/* Social */
+
+.fa-brands {
+    width: 35px;
+    height: 45px;
 }
 
-.social-icons-bot a{
+.social-icons-bot i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons-bot a {
+    list-style: none;
     margin: 0 10px;
-    width: 50px;
-    height: 50px;
+    display: inline-block;
+    font-size: 30px;
+    padding: 5px 10px;
     color: var(--light);
-    background: white;
+    background-color: #fff;
     border-radius: 50%;
     transition: var(--transition);
-    cursor: pointer;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-.social-icons-bot a:hover{
-    background: var(--medium);
-    color: white;
+.social-icons-bot a:hover {
+    color: #fff;
+    background-color: var(--medium);
 }
+
+/* Contact */
 
 .contact-item span{
     display: block;
 }
+
+/* Copyright */
 
 .copyright-container{
     padding: 30px 0;
@@ -69,6 +73,8 @@
     opacity: 0.6;
     margin-bottom:0;
 }
+
+/* Useful links and Copyright hover */
 
 .useful_links  a, .copyright a{
     color: #fff;
@@ -91,6 +97,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .social-icons-bot a{
+        margin: 10px;
+    }
+
     .contact-item{
         display: grid;
         grid-template-columns: 10% 90%;
@@ -98,7 +108,6 @@
         align-items: center;
     }
     
-
     .copyright-container{
         padding: 0;
     
@@ -133,7 +142,6 @@
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 150px;
     }
-
 
     .contact-item{
         display: grid;
