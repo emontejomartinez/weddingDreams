@@ -16,6 +16,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html{
+  font-family: "Montserrat", sans-serif;
+}
+
 /* Social Nav */
 
 .social_nav{
@@ -56,6 +60,13 @@
 
 .social-icons-top a:hover{
   color: var(--light);
+}
+
+.animation {
+  transition: var(--transition);
+}
+.animation:hover {
+  transform: scale(0.9);
 }
 
 /* Principal Nav */
