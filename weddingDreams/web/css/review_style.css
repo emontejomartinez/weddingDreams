@@ -23,6 +23,13 @@ img{
     margin: 15px 0;
 }
 
+.title h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+.title h2 {
+    text-shadow: 2px 2px 8px rgb(10, 10, 10);
+}
 /* customers */
 .sec-width{
     width: 85vw;
@@ -45,7 +52,6 @@ img{
     cursor: pointer;
     transition: var(--transition);
 }
-
 
 .customer h3{
     font-size: 25px;
